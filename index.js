@@ -13,15 +13,16 @@ const textBlock=document.querySelector("#menutext");
 burgerMenu.addEventListener("mouseover",function(){
 	menuBlock.style.display="block";
 });
+burgerMenu.addEventListener("click",function(){
+	menuBlock.style.display="none";
+});
 menuBlock.addEventListener("mousover",function(){
 	menuBlock.style.display="block";
 });
 textBlock.addEventListener("mousover",function(){
 	menuBlock.style.display="block";
 });
-menuBlock.addEventListener("mouseout",function(){
-	menuBlock.style.display="none";
-});
+
 
 const arrayOfImages=["image/1-min.png",
 "image/2-min.png",

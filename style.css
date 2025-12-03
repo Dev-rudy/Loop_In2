@@ -32,6 +32,44 @@ button, label, select, [type="checkbox"], [type="radio"] {
    cursor: pointer;
 }
 
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #96268B #DFE9EB;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #96268B;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FA0FCB;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FA0303;
+}
+
+
 
 
 
@@ -44,14 +82,14 @@ header{max-width:1280px;height:8vh;margin:auto;margin-top:1vh;background:transpa
 .logo-image{width:100%;height:auto;}
 .bmenu-image{width:100%;height:auto;}
 .burger-menu{width:4vw;height:5vh;background:none;margin-right:1vw;  margin-top:.3vh;float:right;}
-.menu-block{position:absolute;width:10vw;height:8vh;right:3vw;top:2vh;background:white;display:none;}
+.menu-block{position:absolute;width:10vw;height:8vh;right:5vw;top:2vh;background:white;display:none;}
 #menutext{display:block;text-decoration:none;text-align:center;font-weight:bold;background:black;color:white;font-size:1rem;margin:1vh;}
 
 .main{max-width:1280px;height:230vh;margin:auto;margin-bottom:2vh;padding:1vw;background-image:linear-gradient(-130deg,transparent 40%,red 30%,purple 20%);}
 .banner-container{width:80%;margin:auto;height:50vh;background:none;margin-top:1vh;margin-bottom:1vh;}
 .banner-image{width:auto;height:100%;margin:auto;}
 .separator{height:2px;width:30vw;margin:auto;background:silver;}
-.multiple-choice-container{width:80%;margin:auto;height:30vh;background:none;padding:0;}
+.multiple-choice-container{width:80%;margin:auto;height:30vh;background:none;padding-left:2vw;}
 .brand{width:100%;height:auto;}
 .choice-name{color:black;font-size:1rem;text-align:center;font-weight:1000;margin-top:1vh;display:none;}
 .item-choices{width:10vw;height:10vh;background:black;margin:1vw;display:inline;float:left;border-radius:1vw;padding:0;box-shadow:2px 2px 2px white;}
@@ -61,7 +99,7 @@ background-image:linear-gradient(130deg,transparent 70%,red 40%);overflow:hidden
 .offers-container{width:30%;height:100%;display:inline;float:left;background:none;overflow:hidden;padding:2vw;}
 .item-offers{width:15vh;height:18vh;background-image:linear-gradient(130deg,green 70%,red 40%);display:inline;float:left;margin:1vh;position:relative;}
 .offers{width:25vw;height:85vh;margin:auto;background:white;background-image:url("banner2.png");background-size:cover;background-position:center;background-repeat:no-repeat;}
-.subpage-portals{width:90%;height:30vh;background-image:linear-gradient(130deg,transparent 70%,red 40%);margin:auto;margin-top:10vh;padding:2vw;box-shadow:2px 2px 2px black;}
+.subpage-portals{width:90%;height:30vh;background-image:linear-gradient(130deg,transparent 70%,red 40%);margin:auto;margin-top:10vh;padding-left:10vw;padding-top:8vh;box-shadow:2px 2px 2px black;}
 .portals{width:20vw;height:10vh;display:inline;float:left;background:red;margin:1vw;border-radius:1vw;padding:2vw;box-shadow:2px 2px 5px black;}
 #portal-buttons{font-size:2rem;margin-top:1vh;display:block;}
 .items-itself{width:100%;height:auto;}
@@ -85,10 +123,10 @@ background-image:linear-gradient(130deg,transparent 70%,red 40%);overflow:hidden
 	.item-choices{width:18vw;height:8vh;}
 	.item-container{height:60%;display:block;width:100vw;}
 	.offers-container{height:20%;width:100%;display:block;margin-top:2vh;}
-	.items-container{height:80%;display:block;width:100%;overflow-y:auto;padding-left:2vw;padding-top:1vh;background:black;
+	.items-container{height:80%;display:block;width:100%;overflow-y:auto;padding-left:1vw;padding-top:1vh;background:black;
 	background-image:linear-gradient(-130deg,purple 70%,transparent 70%);border-radius:1vw;}
 	.offers{width:90%;height:95%;background-image:url("banner1.png");background-size:cover;background-position:center;background-repeat:no-repeat;}
-	.subpage-portals{margin-top:10vh;height:20vh;background:transparent;margin-left:9vw;}
+	.subpage-portals{margin-top:10vh;height:20vh;background:transparent;margin-left:5vw;}
 	.product-offer-section{background:transparent;}
 	.portals{height:10vh;width:22vw;}
 	#portal-buttons{font-size:1rem;margin-top:1.5vh;}
@@ -97,7 +135,8 @@ background-image:linear-gradient(130deg,transparent 70%,red 40%);overflow:hidden
 	.subpage_banner{width:100%;height:40vh;}
 	.image-conts{width:35vw;background:white;height:25vh;}
 	.subpage_sticker_ideas{padding-left:4vw;}
-	.menu-block{width:20vw;right:8vw;}
+	.menu-block{width:20vw;right:8vw;height:15vh;}
+
 } 
 @media(min-width:300px){
 	

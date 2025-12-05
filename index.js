@@ -1,10 +1,20 @@
 console.log("hello  world ");
 
 
+let priceArray=["₱65-₱99","₱569","₱266-₱299","₱563",
+"₱57","₱298-₱331","₱294","₱27","₱345","₱833-₱930","₱349-₱764",
+"₱45-₱60","₱300 n/a","₱161","₱115","₱6-₱9","₱25","₱25",
+"₱151","₱359-₱500","₱270-₱374","₱222-₱300","₱110-₱184",
+"₱69-95","₱85-₱95","₱120","₱49-52","₱355-₱463","₱169", "₱217",
+"₱44","₱16-₱100","₱756-₱788","₱1552","₱476","₱799-₱959","₱69-₱100",
+"₱25","₱421-₱500","₱172","₱419","₱429","₱225-₱384","₱999","₱1075"
+
+];
 const prices=document.querySelectorAll(".price");
-for(let i=0;i<prices.length;i++){
+
+for(let i=0;i<prices.length && priceArray.length;i++){
 	console.log(prices.length);
-	prices[i].innerHTML="P100";
+	prices[i].innerHTML=priceArray[i];
 }
 
 const burgerMenu=document.querySelector(".burger-menu");
@@ -63,7 +73,12 @@ const arrayOfImages=["image/1-min.png",
 "image/37-min.png",
 "image/38-min.png",
 "image/39-min.png",
-"image/40-min.png"
+"image/40-min.png",
+"image/41-min.png",
+"image/42-min.png",
+"image/43-min.png",
+"image/44-min.png",
+"image/45-min.png"
 ];
 
 const imageTags=document.querySelectorAll(".items-itself");
@@ -98,3 +113,8 @@ let bannerInterval=setInterval(function(){
 	}else{alert("Errors Banner Images cannot find!!!!");}
 	
 },5000);
+
+
+
+
+alert("Notice!! : Please keep in mind that these Price range are just 'general estimates' it  might change if the e-comerse platform starts or ended their seasonal events  -happy shoping :)");

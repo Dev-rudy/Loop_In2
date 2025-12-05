@@ -132,7 +132,7 @@ background-image:linear-gradient(130deg,transparent 70%,red 40%);overflow:hidden
 	.portals{height:10vh;width:22vw;}
 	#portal-buttons{font-size:1rem;margin-top:1.5vh;}
 	.choice-name{margin-top:2.5vh;color:black; font-family:Brush Script MT;}
-	.price{height:3vh;width:14vw;}
+	.price{height:2.5vh;width:18vw;font-size:.8rem;}
 	.subpage_banner{width:100%;height:40vh;}
 	.image-conts{width:35vw;background:white;height:25vh;}
 	.subpage_sticker_ideas{padding-left:4vw;}
